@@ -1,5 +1,7 @@
 # Pokedex
 
+Consuming api pokeapi, the name, types and images were obtained by the api.
+
 ## Table of contents
 
 - [Overview](#overview)
