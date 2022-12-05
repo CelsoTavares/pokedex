@@ -4,6 +4,7 @@ import './main.css'
 const Main = () => {
 
   const [pokedex, setPokedex] = useState([])
+  const[ loading, setLoading] = useState(true)
   
   const colors = {
     fire: '#FDDFDF',
@@ -35,6 +36,14 @@ const Main = () => {
     }
     loadFilmes() 
   }, [])
+  
+    if(loading) {
+    return (
+    <div className='loading'>
+      <h2>Carregando pokedex...</h2>
+    </div>
+    )
+  }
   
   return (
     <main className='container'>
