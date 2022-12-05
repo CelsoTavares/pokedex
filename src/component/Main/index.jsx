@@ -55,7 +55,7 @@ const Main = () => {
             style={{background: colors[item.types[0].type.name]}} 
             className='pokemons'>
               <div className='poke'></div>
-              <img  src={item.sprites.front_default}/>
+              <img  src={item.sprites.front_default} alt='pokemons'/>
               <p className='id'>#{index + 1}</p>
               <p><strong>{item.name.toUpperCase()}</strong></p>
               <p className='type'>Type: {item.types[0].type.name}</p>
