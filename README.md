@@ -1,6 +1,6 @@
 # Pokedex
 
-Consuming api pokeapi, the name, types and images were obtained by the api.
+Consuming pokeapi api with vite and react.js, the names, types and images were obtained through the api.
 
 ## Table of contents
 
