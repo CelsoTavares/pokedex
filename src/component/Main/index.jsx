@@ -33,6 +33,7 @@ const Main = () => {
         pokemon.push((url))
       }
       setPokedex(pokemon)
+      setLoading(false)
     }
     loadFilmes() 
   }, [])
